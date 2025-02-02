@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-import numerical_integration
+import exercise
 
 
 def sample_main():
@@ -15,7 +15,7 @@ def sample_main():
 
         n = max(int(x_end - x_begin) * 10, 10)
 
-        result_2 = numerical_integration.gauss_int_2(x_begin, x_end, n)
+        result_2 = exercise.gauss_int_2(x_begin, x_end, n)
 
         area_list.append(result_2['area_2'])
 

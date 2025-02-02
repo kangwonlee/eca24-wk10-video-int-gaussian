@@ -25,7 +25,7 @@ proj_folder = test_folder.parent.absolute()
 sys.path.insert(0, str(proj_folder))
 
 
-import numerical_integration
+import exercise
 
 
 random.seed()
@@ -73,7 +73,7 @@ def delta_x(x_array:np.ndarray) -> float:
     return x_array[1] - x_array[0]
 
 
-@pytest.fixture(params=[numerical_integration.gauss_int_2])
+@pytest.fixture(params=[exercise.gauss_int_2])
 def int_method(request):
     return request.param
 

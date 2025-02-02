@@ -21,14 +21,14 @@ $$
 
 ## Implementation<br>구현
 
-* Implement following functions in `numerical_integration.py` file.<br>다음 함수를 `numerical_integration.py` 파일에 구현하시오.
+* Implement following functions in `exercise.py` file.<br>다음 함수를 `exercise.py` 파일에 구현하시오.
 
 | function<br>함수 | description<br>설명 |
 |:----------------:|:------------------:|
 | `gauss_int_2()` | calculate the Gaussian Integration using numerical integration of 2th order<br>2차 수치 적분을 사용하여 가우스 적분을 계산 |
 
 * Please see `sample.py` file for an example.<br>사용 예에 대해서는 `sample.py` 파일을 참고하시오.
-* In `numerical_integration.py` file, every python code line must belong to one of functions.<br>`numerical_integration.py` 파일에서 모든 파이썬 코드 라인은 반드시 함수 중 하나에 속해야 함.
+* In `exercise.py` file, every python code line must belong to one of functions.<br>`exercise.py` 파일에서 모든 파이썬 코드 라인은 반드시 함수 중 하나에 속해야 함.
 
 ### 2nd order integration<br>2차 적분
 * Function `gauss_int_2()` has three argument : `x_begin`, `x_end`, and `n`.<br>함수 `gauss_int_2()` 의 매개변수는 `x_begin`, `x_end`, 그리고 `n` 이다.
@@ -51,7 +51,7 @@ $$
 |       | points<br>배점 |
 |:-----:|:-------------:|
 | Python Syntax<br>파이썬 문법 | 2 |
-| all lines of `numerical_integration.py` in the function<br>`numerical_integration.py` 파일에는 함수만 포함 | 1 |
+| all lines of `exercise.py` in the function<br>`exercise.py` 파일에는 함수만 포함 | 1 |
 | results<br>결과값 | 2 |
 
 ## Example<br>예
